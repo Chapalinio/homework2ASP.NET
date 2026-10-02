@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] — Мої улюблені речі</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="/" class="logo">Мої улюблені речі</a>
+            <ul class="nav-links">
+                <li><a href="/Home/Index">Головна</a></li>
+                <li><a href="/Home/About">Про сайт</a></li>
+                <li><a href="/favorites">Ігри</a></li>
+                <li><a href="/movies">Фільми</a></li>
+                <li><a href="/Favorite/Music">Музика</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        @RenderBody()
+    </main>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

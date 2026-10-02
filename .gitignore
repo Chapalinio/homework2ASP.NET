@@ -1,0 +1,44 @@
+## Visual Studio / .NET
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.user
+*.userosscache
+*.sln.docstates
+
+## Visual Studio Cache / Temp
+.vs/
+.idea/
+.vscode/
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svclog
+*.sublime-project
+*.sublime-workspace
+
+## Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+## ASP.NET / IIS
+.vs/
+appsettings.Development.json
+appsettings.Production.json
+*.PublishSettings
+*.pubxml
+
+## OS specific
+.DS_Store
+Thumbs.db
